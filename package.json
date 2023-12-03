@@ -6,12 +6,13 @@
   "main": "index.js",
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "node build"
+    "build": "parcel build src/*.html --public-url /goit-typescript-hw-01/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@web/dev-server": "^0.4.1"
+    "@web/dev-server": "^0.4.1",
+    "parcel": "^2.10.3"
   }
 }
